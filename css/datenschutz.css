@@ -1,0 +1,66 @@
+/* ============================================================
+   OG Hildesheimer Börde — Datenschutz Page Styles
+   ============================================================ */
+
+.datenschutz-hero {
+  background: #0a0a0a;
+  padding: 4rem 0 3rem;
+  border-bottom: 1px dashed rgba(253, 37, 4, 0.2);
+}
+
+.datenschutz-hero h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); }
+.datenschutz-hero p { color: #888; font-size: 0.9rem; margin-top: 0.5rem; }
+
+.datenschutz-content {
+  padding: 4rem 0 6rem;
+  background: #0a0a0a;
+}
+
+.datenschutz-content .container--narrow h2 {
+  font-size: 1.35rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+  border-top: 1px dashed rgba(253, 37, 4, 0.2);
+  color: #fff;
+}
+
+.datenschutz-content .container--narrow h3 {
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #ddd;
+}
+
+.datenschutz-content .container--narrow p {
+  font-size: 0.9rem;
+  color: #888;
+  line-height: 1.85;
+}
+
+.datenschutz-content .container--narrow ul {
+  font-size: 0.9rem;
+  color: #888;
+  line-height: 1.85;
+  padding-left: 1.5rem;
+}
+
+.datenschutz-content .container--narrow li { margin-bottom: 0.4rem; }
+
+.datenschutz-content .container--narrow a { color: #fd2504; }
+
+.datenschutz-content .container--narrow strong { color: #ccc; }
+
+.datenschutz-intro {
+  background: #111;
+  border-left: 3px solid #fd2504;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: #888;
+  line-height: 1.85;
+}
+
+@media (max-width: 768px) {
+  .datenschutz-content { padding: 3rem 0 4rem; }
+}
